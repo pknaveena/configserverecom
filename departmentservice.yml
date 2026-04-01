@@ -18,6 +18,10 @@ spring:
     console:
       enabled: true
       path: /h2-console
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
 
 eureka:
   client:
